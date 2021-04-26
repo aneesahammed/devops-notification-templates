@@ -1,0 +1,159 @@
+<mjml>
+  <mj-head>
+    <mj-title>GI DevOps Engineering</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, sans-serif" padding="0px"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#374151" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+      -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link {
+      color: #6B7280
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .mailto-link {
+      color: #3B82F6;
+      text-decoration: none
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#E5E7EB">
+
+    <!--header-->
+    <mj-section padding="20px 0 20px 0">
+      <!-- header:left-->
+      <mj-column vertical-align="middle">
+        <mj-text color="#374151" font-size="24px" font-weight="bold">DevOps</mj-text>
+      </mj-column>
+
+      <!--header:right-->
+      <mj-column vertical-align="middle">
+        <mj-text align="right" font-weight="bold" padding-top="12px">Project: <span style="font-weight:semibold;color:#64748B"> snapcircle-backend-service</span></mj-text>
+        <mj-text padding-top="3px" align="right" font-weight="bold">Date: <span style="font-weight:semibold;color:#64748B">11/04/2021</span></mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!--***MAIN-SECTION***-->
+    <mj-wrapper css-class="body-section" border-bottom="1px solid #EEEEEE" padding="50px 30px" background-color="#ffffff">
+
+      <!--status:image-->
+      <mj-section>
+        <mj-column background-color="#D1FAE5" width="55px">
+          <mj-image padding="8px" align="center" width="40px" height="40px" src="https://user-images.githubusercontent.com/8899419/114381548-26dd7200-9b83-11eb-9fd0-92f6f5ae0bc3.png" />
+        </mj-column>
+      </mj-section>
+
+      <!--status:text-->
+      <mj-section padding="20px">
+        <mj-column>
+          <mj-text font-weight="200" font-size="24px" color="#334155" align="center">Deployment is successfull!</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--divider-->
+      <mj-section padding="10px">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+      <!--info-->
+      <mj-section padding="30px">
+        <!--info:branch-->
+        <mj-column>
+          <mj-image align="center" width="24px" height="24px" padding-bottom="3px" src="https://user-images.githubusercontent.com/8899419/114321342-5011ea00-9b12-11eb-900e-e074dc3e0540.png"></mj-image>
+          <mj-text align="center">
+            <h3 style="font-weight: 400; font-size:15px; margin-top: 0; margin-bottom: 0">
+              <a class="text-link" href="" style="text-decoration: none">
+                release
+              </a>
+            </h3>
+          </mj-text>
+        </mj-column>
+
+        <!--info:commit-->
+        <mj-column>
+          <mj-image align="center" width="24px" height="24px" padding-bottom="3px" src="https://user-images.githubusercontent.com/8899419/103226916-129f9d00-4925-11eb-906c-59f0ca44aaf2.png"></mj-image>
+          <mj-text align="center" padding-top="3px" padding-bottom="3px">
+            <h3 style="font-weight: 400; font-size:15px; margin-top: 0; margin-bottom: 0">
+              <a class="text-link" href="" style="text-decoration: none">
+                283b72d
+              </a>
+            </h3>
+          </mj-text>
+        </mj-column>
+
+        <!--info:author-->
+        <mj-column>
+          <mj-image align="center" width="24px" height="24px" padding-bottom="3px" src="https://user-images.githubusercontent.com/8899419/114321196-784d1900-9b11-11eb-8c62-a27b15c9f61a.png"></mj-image>
+          <mj-text align="center">
+            <h3 style="font-weight: 400; font-size:15px; margin-top: 0; margin-bottom: 0">
+              <a class="text-link" href="" style="text-decoration: none">
+                aahammed
+              </a>
+            </h3>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <!--build-summary-->
+      <mj-section padding="20px">
+        <mj-column>
+          <mj-text align="center" color="#475569" font-size="15px">🚀 Build <span style="font-weight:semibold;color:#3B82F6">#301</span> triggered by author: <span style="font-weight:semibold;color:#3B82F6">aahammed</span></mj-text>
+          <mj-text align="center" color="#475569" font-size="15px" padding-top="5px">successfully completed in <span style="font-weight:semibold;color:#3B82F6">20 minutes</span></mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- callto action-->
+      <mj-section padding-top="30px">
+        <mj-column>
+          <mj-button width="50%" height="32px" align="center" font-weight="500" background-color="#2563EB" href="#">
+            View Logs
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!--footer-->
+    <!--footer:images-->
+    <mj-section padding-top="20px">
+      <mj-column>
+        <mj-social font-size="15px" mode="horizontal" icon-size="16px" color="#64748B" padding-right="20px">
+
+          <mj-social-element href="#" src="https://user-images.githubusercontent.com/8899419/114322618-201a1500-9b19-11eb-8d9b-da2d0ecbcc01.png">&nbsp;GitHub&nbsp;
+          </mj-social-element>
+
+          <mj-social-element padding-left="20px" padding-right="20px" href="#" src="https://user-images.githubusercontent.com/8899419/114322615-1ee8e800-9b19-11eb-9d4a-2f220c7860a0.png">&nbsp;SonarQube&nbsp;
+          </mj-social-element>
+
+          <mj-social-element icon-size="28px" href="#" src="https://user-images.githubusercontent.com/8899419/114322616-1f817e80-9b19-11eb-89bc-08a9f9676f35.png">Artifactory
+          </mj-social-element>
+
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px">
+      <mj-column>
+        <mj-text font-size="12px" color="#475569" align="center" padding-bottom="20px">If you have any questions, feel free to message us at <a class="mailto-link" href="mailto:DevOps_Support@email.com">support@email.com</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+  </mj-body>
+</mjml>
